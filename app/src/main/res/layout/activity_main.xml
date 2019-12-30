@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="592dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="137dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="415dp"
+        android:layout_height="137dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="0dp"
+
+        android:background="@color/colorPrimary"
+        android:text="        CODER2HACKER  \n              Let's code \n       SHIVANT PANDEY"
+        android:textColor="#F00"
+        android:textSize="30sp" />
+
+</RelativeLayout>
+
+
